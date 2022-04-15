@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+}
+
+ul{
+    background-color:darkgrey;
+    display:flex;
+    justify-content:flex-start;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+ 
+    list-style: none;
+
+
+}
+
+li{
+
+    margin: auto;
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: aliceblue;
+    
+
+    
+}
+
+.whiteb{
+    background-color: whitesmoke;
+    color:black;
+    margin:15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0.5em;
+    width: 70px;
+    text-align: center;
+
+    
+}
+
+li:first-child{
+    font-size:2em;
+}
+
+.carousel{
+    margin:0px;
+    background-color: antiquewhite;
+    height:13em;
+}
+
+section h2{
+    text-align: center;
+    font-weight: lighter;
+    padding: 2em;
+}
+
+strong{
+    font-weight: bold;
+    color: red;
+}
+
+article{
+    background-color:bisque;
+    padding: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 10px;
+    margin-bottom: 5em;
+}
+#zonearticle{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* bare de séparation*/
+.separator{
+    border-top: 0.2em inset red;
+}
+#zoneform{
+    /*
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    */
+
+}
+/* Reglage input et textarea*/
+input,textarea{
+    display: block;
+    margin:auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+    
+}
+form textarea{
+    height: 10em;
+}
+
+/* Espacement*/
+.space{
+    height:1em;
+}
